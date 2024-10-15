@@ -31,7 +31,7 @@ theme:
     - navigation.top # Кнопка «назад-вверх»
     - navigation.footer # Переключение кнопками предыдущей/следующей страницы в футере
     - navigation.tabs # Навигационные вкладки
-    # - navigation.sections # Отображение верхних вкладок на панели слева
+    - navigation.sections # Отображение верхних вкладок на панели слева
     - navigation.indexes # Скрыть дублирование заголовка на панели слева.
     - toc.integrate # Интеграция подразделов в панель слева
     - toc.follow # Автоматическая прокрутка боковой панели при прокрутке
@@ -39,7 +39,9 @@ theme:
     - search.suggest # Автозавершение поискового запроса
     - content.code.copy # Кнопка копирования кода
     
-
+nav:
+  - Home: 'index.md'
+  - About: 'about.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
@@ -74,8 +76,8 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append: 
       - docs/abbreviations.md
-docs_dir: /src
-site_dir: /docs
+docs_dir: src
+site_dir: docs
 #plugins:
   #- search:
    #   separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
