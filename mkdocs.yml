@@ -75,7 +75,7 @@ markdown_extensions:
       auto_append: 
       - docs/abbreviations.md
 docs_dir: /src
-site_dir: /site
+site_dir: /docs
 #plugins:
   #- search:
    #   separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
