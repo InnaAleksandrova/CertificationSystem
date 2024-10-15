@@ -6,7 +6,6 @@ repo_name: SertificationSystem
 repo_url: https://github.com/InnaAleksandrova/SertificationSystem
 
 theme:
-  custom_dir: 'theme'
   name: material
   palette:
       # Palette toggle for dark mode
