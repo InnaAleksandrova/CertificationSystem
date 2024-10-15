@@ -75,7 +75,9 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append: 
       - docs/abbreviations.md
-
+docs_dir: src
+edit_uri: edit/main/src/
+site_dir: docs
 #plugins:
   #- search:
    #   separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
