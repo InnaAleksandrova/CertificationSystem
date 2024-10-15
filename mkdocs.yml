@@ -76,7 +76,7 @@ markdown_extensions:
       - docs/abbreviations.md
 docs_dir: src
 edit_uri: edit/main/src/
-site_dir: docs
+site_dir: site
 #plugins:
   #- search:
    #   separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
