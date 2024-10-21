@@ -18,6 +18,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+    
   font:
     text: Roboto
     code: Roboto Mono
@@ -39,8 +40,8 @@ theme:
     - content.code.copy # Кнопка копирования кода
     
 nav:
-  - Home: 'index.md'
-  - About: 'about.md'
+  - Главная: 'index.md'
+  - Бизнес-описание проекта: 'about.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
