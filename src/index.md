@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Добро пожаловать!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Это пространство документации по проекту "Система обеспечения производственного процесса для геммологической лаборатории"
 
-## Commands
+## О проекте
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Проект и пространство разработаны в рамках проектной работы на курсе [OTUS "Системный аналитик. Advanced"](https://otus.ru/lessons/system_analyst/). 
 
-## Project layout
+## Содержание пространства
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Бизнес-описание проекта]
