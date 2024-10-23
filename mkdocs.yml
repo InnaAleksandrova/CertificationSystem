@@ -87,5 +87,6 @@ markdown_extensions:
       - docs/abbreviations.md
 plugins:
   - glightbox
+  - search
 docs_dir: src
 site_dir: docs
