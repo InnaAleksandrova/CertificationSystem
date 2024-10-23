@@ -41,6 +41,8 @@ theme:
     - content.code.copy # Кнопка копирования кода
   icon:
     logo: material/diamond-stone 
+  favicon:
+    logo: material/diamond-stone
 nav:
   - Главная: 'index.md'
   - Бизнес-описание проекта: 'about.md'
