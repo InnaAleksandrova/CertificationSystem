@@ -1,0 +1,1 @@
+![БП-1 Процесс сертификации AS-IS на верхнем уровне](business-processes-as-is/BP-1-AC-IS){ align=left }
