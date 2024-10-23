@@ -6,8 +6,7 @@ repo_url: https://github.com/InnaAleksandrova/SertificationSystem
 
 theme:
   name: material
-  palette: 
-    
+  palette:     
     # Palette toggle for light mode
     - scheme: default
       primary: brown
@@ -40,7 +39,7 @@ theme:
     - search.highlight # Подсветка вхождений в тексте
     - search.suggest # Автозавершение поискового запроса
     - content.code.copy # Кнопка копирования кода
-icon:
+  icon:
     logo: material/diamond-stone 
 nav:
   - Главная: 'index.md'
