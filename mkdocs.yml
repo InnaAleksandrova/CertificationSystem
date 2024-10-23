@@ -49,6 +49,8 @@ nav:
     - Бизнес-описание проекта: 'about.md'
     - Цели проекта: 'goals.md'
     - Глоссарий: 'glossary.md'
+  - Бизнес-процессы:
+    - AS-IS: 'business-processes-as-is.md'
   - Требования:
     - Бизнес-требования: 'br.md'
 markdown_extensions:
