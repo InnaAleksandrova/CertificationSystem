@@ -42,13 +42,15 @@ theme:
   icon:
     logo: material/diamond-stone 
   favicon:
-    logo: material/diamond-stone
+    logo: assets/images/favicon.jpg
 nav:
   - Главная: 'index.md'
   - Общее описание:
     - Бизнес-описание проекта: 'about.md'
     - Цели проекта: 'goals.md'
     - Глоссарий: 'glossary.md'
+  - Требования:
+    - Бизнес-требования: 'br.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
@@ -83,5 +85,7 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append: 
       - docs/abbreviations.md
+plugins:
+  - glightbox
 docs_dir: src
 site_dir: docs
