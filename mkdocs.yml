@@ -40,7 +40,8 @@ theme:
     - search.highlight # Подсветка вхождений в тексте
     - search.suggest # Автозавершение поискового запроса
     - content.code.copy # Кнопка копирования кода
-    
+icon:
+    logo: material-diamond-stone   
 nav:
   - Главная: 'index.md'
   - Бизнес-описание проекта: 'about.md'
@@ -80,24 +81,3 @@ markdown_extensions:
       - docs/abbreviations.md
 docs_dir: src
 site_dir: docs
-#plugins:
-  #- search:
-   #   separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  #- swagger-ui-tag
-  #- build_plantuml:
-  #    render: 'server' # or "local" for local rendering
-    #  bin_path: '/usr/local/bin/plantuml' # ignored when render: server
-     # server: 'http://www.plantuml.com/plantuml' # official plantuml server
-      #disable_ssl_certificate_validation: true # for self-signed and invalid certs
-      #output_format: 'svg' # or "png"
-      #diagram_root: 'docs/diagrams' # should reside under docs_dir
-      #output_folder: 'out'
-      #input_folder: 'src'
-      #input_extensions: '' # comma separated list of extensions to parse, by default every file is parsed
-  #- enumerate-headings:
-   #   exclude:
-    #    - index.md
-     #   - glossary.md
-  # - print-site:
-  #     path_to_pdf: "assets/test.pdf"
-  #- glightbox
