@@ -45,7 +45,10 @@ theme:
     logo: material/diamond-stone
 nav:
   - Главная: 'index.md'
-  - Бизнес-описание проекта: 'about.md'
+  - Общее описание:
+    - Бизнес-описание проекта: 'about.md'
+    - Цели проекта: 'goals.md'
+    - Глоссарий: 'glossary.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
