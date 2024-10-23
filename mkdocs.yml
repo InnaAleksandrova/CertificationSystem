@@ -42,7 +42,7 @@ theme:
   icon:
     logo: material/diamond-stone 
   favicon:
-    logo: assets/images/favicon.jpg
+    logo: assets/images/favicon.png
 nav:
   - Главная: 'index.md'
   - Общее описание:
