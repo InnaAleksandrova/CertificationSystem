@@ -51,6 +51,7 @@ nav:
     - Глоссарий: 'glossary.md'
   - Бизнес-процессы:
     - AS-IS: 'business-processes-as-is.md'
+    - TO-BE: 'business-processes-to-be.md'
   - Требования:
     - Бизнес-требования: 'br.md'
 markdown_extensions:
