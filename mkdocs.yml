@@ -54,6 +54,7 @@ nav:
     - Бизнес-процесс TO-BE: 'business-processes-to-be.md'
   - Требования:
     - Бизнес-требования: 'br.md'
+    - Нефункциональные требования: 'nft.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
