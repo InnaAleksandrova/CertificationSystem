@@ -54,7 +54,6 @@ nav:
     - Бизнес-процесс TO-BE: 'business-processes-to-be.md'
   - Требования:
     - Бизнес-требования: 'br.md'
-    - Нефункциональные требования: 'nft.md'
     - Функциональные требования: 
       - Диаграмма вариантов использования: 'use-case-diagram.md'
       - Описание сценариев использования:
@@ -64,6 +63,7 @@ nav:
         - 4. Печать сертификационных документов: 'use-cases-print.md'
         - 5. Завершение работ: 'use-cases-end.md'
         - 6. Аналитика и отчетность: 'use-cases-analytics.md'
+    - Нефункциональные требования: 'nft.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
