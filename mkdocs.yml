@@ -55,6 +55,14 @@ nav:
   - Требования:
     - Бизнес-требования: 'br.md'
     - Нефункциональные требования: 'nft.md'
+    - Функциональные требования: 
+      - Диаграмма вариантов использования: 'use-case-diagram.md'
+      - Описание сценариев использования:
+        - 1. Приемка: 'use-cases-priemka.md'
+        - 2. Работа над образцами: 'use-cases-work.md'
+        - 3. Печать сертификационных документов: 'use-cases-print.md'
+        - 4. Завершение работ: 'use-cases-end.md'
+        - 5. Аналитика и отчетность: 'use-cases-analytics.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
