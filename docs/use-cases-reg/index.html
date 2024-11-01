@@ -80,6 +80,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#uc-11" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -793,6 +798,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    1. Регистрация и авторизация
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -802,6 +818,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uc-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC 1.1. Авторизация в системе
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -977,7 +1019,33 @@
 
   <h1>1. Регистрация и авторизация</h1>
 
-
+<h2 id="uc-11">UC 1.1. Авторизация в системе<a class="headerlink" href="#uc-11" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Краткое описание сценария</th>
+<th>Пользователь авторизуется в системе</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Результат</strong></td>
+<td>Пользователь авторизован в системе</td>
+</tr>
+<tr>
+<td><strong>Предусловие</strong></td>
+<td>У пользователя есть ссылка на систему</td>
+</tr>
+<tr>
+<td><strong>Основной сценарий</strong></td>
+<td><ol><li> Пользователь переходит на форму авторизации</li><li> Система отображает форму для ввода логина и пароля.</li><li> Пользователь вводит корректные логин и пароль.</li><li> Система авторизует пользователя и отображает пользователю главную страницу системы.</li></ol></td>
+</tr>
+<tr>
+<td><strong>Альтернативный сценарий № 1</strong></td>
+<td>4.1. Пользователь ввел некорректный логин или пароль. <br>4.2. Система уведомляет пользователя, что введенные данные некорректны.</td>
+</tr>
+</tbody>
+</table>
 
 
 
