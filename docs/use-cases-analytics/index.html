@@ -80,6 +80,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#uc-61" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -898,6 +903,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    6. Аналитика и отчетность
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -907,6 +923,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uc-61" class="md-nav__link">
+    <span class="md-ellipsis">
+      UC 6.1. Получение отчета по выпущенным сертификатам
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -977,7 +1019,37 @@
 
   <h1>6. Аналитика и отчетность</h1>
 
-
+<h2 id="uc-61">UC 6.1. Получение отчета по выпущенным сертификатам<a class="headerlink" href="#uc-61" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Краткое описание сценария</th>
+<th>Руководителю лаборатории нужно выгружать отчеты по выпущенным сертификатам, чтобы планировать загрузку лаборатории, а также отчитываться перед вышестоящим руководителем (директором лаборатории)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Действующие лица</td>
+<td>Руководитель лаборатории</td>
+</tr>
+<tr>
+<td>Результат</td>
+<td>Пользователь скачал Excel-документ с отчетом</td>
+</tr>
+<tr>
+<td>Предусловие</td>
+<td>Пользователь находится на отдельной форме отчетов</td>
+</tr>
+<tr>
+<td>Основной сценарий</td>
+<td><ol><li>Пользователь инициирует выгрузку отчета по выпущенным сертификатам.</li><li>Система отображает форму ввода параметров выгрузки.</li><li> Пользователь выбирает нужные параметры: Клиент, Даты выдачи сертификатов </li><li>Система формирует файл в формате xslx и передает его на скачивание пользователю.</li></ol></td>
+</tr>
+<tr>
+<td>Детализация требований</td>
+<td>Выгрузка содержит параметры:<ol><li> Клиент</li><li>Номер заявки</li><li>Номер пакета</li><li>Номер сертификата</li><li>Дата выдачи сертификата</li><li>Данные из сертификата</li></ol></td>
+</tr>
+</tbody>
+</table>
 
 
 
