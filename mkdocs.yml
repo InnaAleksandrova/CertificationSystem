@@ -66,6 +66,7 @@ nav:
     - Нефункциональные требования: 'nft.md'
   - Проектирование:
     - Информационная модель: 'information-model.md'
+    - Архитектура: 'arch.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
