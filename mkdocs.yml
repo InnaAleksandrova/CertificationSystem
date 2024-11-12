@@ -1,8 +1,8 @@
-site_name: Sertification System
+site_name: Certification System
 
 # Repository
-repo_name: SertificationSystem
-repo_url: https://github.com/InnaAleksandrova/SertificationSystem
+repo_name: CertificationSystem
+repo_url: https://github.com/InnaAleksandrova/CertificationSystem
 
 theme:
   name: material
