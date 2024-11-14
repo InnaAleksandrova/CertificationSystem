@@ -69,6 +69,9 @@ nav:
     - Архитектура:
       - Архитектурный стиль: 'arch.md'
       - Компонентная модель: 'c4.md'
+    - Интеграции:
+      - Список интеграций: 'integrations.md'
+      - Спецификация API: 'api.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
@@ -106,5 +109,6 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
+  - swagger-ui-tag
 docs_dir: src
 site_dir: docs
