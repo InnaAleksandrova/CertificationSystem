@@ -71,7 +71,8 @@ nav:
       - Компонентная модель: 'c4.md'
     - Интеграции:
       - Список интеграций: 'integrations.md'
-      - Спецификация API: 'api.md'
+      - Спецификации API:
+        - BE-FE интеграция : 'be-fe-api.md'
 markdown_extensions:
   # - lightgallery
   # Python Markdown
